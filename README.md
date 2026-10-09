@@ -1,11 +1,26 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# CertificateFlow 
 
-  <h1>Built with AI Studio</h2>
+**Design. Approve. Generate. Deliver.**
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+CertificateFlow is a B2B SaaS platform that automates bulk certificate generation and email delivery. Companies create or customize certificate designs, obtain admin approval, upload Excel/CSV recipient data, and automatically generate personalized PDF certificates with unique IDs and QR-based verification.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+ Features
+- Company authentication using email OTP
+- Separate platform admin portal
+- Visual certificate designer and templates
+- Admin approval workflow
+- Excel/CSV upload and validation
+- AI-powered column mapping using Gemini
+- Automated PDF and QR generation
+- Email delivery and status tracking
+- Public certificate verification
+- Multi-tenant security
 
-</div>
+ Tech Stack
+React • TypeScript • Python • Flask • PostgreSQL • Redis • Celery • Gemini API • ReportLab • Docker
+
+ Workflow
+Design → Approve → Upload → Validate → Generate → Email → Verify
+
+**Note:** Real AI and email functionality requires API configuration. Only implemented and tested features should be marked production-ready.
